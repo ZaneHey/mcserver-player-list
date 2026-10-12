@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+        <main>
+        	<div id="minecraft-block" class="block">
+            	<div class="block-title"><img src="img/server_default_img.webp" alt="Minecraft Server Icon" width="16px" Height="100%" id="server-icon"/>
+                    <span id="server-ip">mc.example.com</span></div>
+        		<div title="Minecraft" class="block-content" id="minecraft-block-content">
+
+                <div>
+                    <div><span id="motd">Currently Offline</span></div><br>
+            		<div id="player-count-"><span id="player-count">0</span> Player(s) Online</div><br>
+                    <div><span id="player-list">No Visible Players!</span></div>
+                </div>
+
+   				<script src="playerList.js">initServerData("mc.example.com","25565");</script>
+                    
+        		</div>
+            </div>
+        </main>
+	</body>
+</html>

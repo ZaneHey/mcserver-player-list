@@ -1,0 +1,107 @@
+html {
+	cursor: default;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'MinecraftFont';
+    src: url('MinecraftFont/MinecraftRegular.woff2') format('woff2'),
+        url('Fonts/MinecraftFont/MinecraftItalic.woff2') format('woff2'),
+        url('Fonts/MinecraftFont/MinecraftBold.woff2') format('woff2'),
+        url('Fonts/MinecraftFont/MinecraftBoldItalic.woff2') format('woff2');
+}
+
+.block {
+	background-color:#ffffff;
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+	margin:0px 0px 16px 0px;
+	border: 1px solid black;
+	height:auto;
+}
+
+#minecraft-block {
+    font-synthesis: none;
+    color: white;
+    overflow: hidden;
+    min-height: 100px;
+    background-image: url('img/dirt_background.png');
+    font-family:'MinecraftFont';
+}
+
+#minecraft-block-content {
+    font-family:'MinecraftFont';
+    text-align:center;
+}
+
+#server-ip {
+    font-family:'MinecraftFont';
+    font-weight:bold;
+    font-size:68%; 
+}
+
+#motd {
+    font-size:75%;
+    font-family:'MinecraftFont';
+}
+
+#player-count- {
+    font-size:75%;
+    font-family:'MinecraftFont';
+}
+
+#player-list {
+    padding:0px 20px 10px 20px;
+    font-size:75%;
+    font-family:'MinecraftFont';
+}
+
+#player-list-details {
+    font-family:MinecraftFont;
+    text-align:left;
+    border-width:0px 0px 2px 0px;
+    border-style:solid;
+    border-color:rgba(0, 0, 0, 0.45);
+    padding:0px;
+}
+
+#player-list-name {
+    padding:0px;
+    font-family:MinecraftFont;
+    font-size:14px;
+    text-decoration:none;
+    color:white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#player-list-avatar {
+    float:left;
+    padding-right:4px;
+    height:17px;
+}
+
+#player-list-ping {
+    float:right;
+    height:17px;
+}
+
+#player-effects {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width:2px 2px 0px 2px;
+    border-style:solid;
+    border-color:rgba(0, 0, 0, 0.45);
+    padding:0px;
+    list-style-type:none;
+}
+
+.block-title {
+	font-family: Neue;
+	padding: 5px;
+	font-weight:bold;
+	font-size:200%;
+	text-align:center;
+	border-bottom: 1px solid black;
+}
+              
+.block-content {
+	padding:5px;
+}

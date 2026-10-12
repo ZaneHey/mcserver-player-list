@@ -21,13 +21,11 @@ function initServerData(serverIp,serverPort){
 	const hostname = document.getElementById("server-ip");
 	hostname.innerHTML = data.hostname;
 
-
-
 	function getPlayerNames(arg) {
 		
 		let info = "";
 		for (let i = 0; i < arg.length; i++) {
-		    info += `<li id="player-list-details"><a id="player-list-name" href="https://crafty.gg/@${arg[i].name}" target="_blank" rel="noopener noreferrer"><img id="player-list-avatar" src="https://mc-heads.net/avatar/${arg[i].name}" >${arg[i].name}</a><img id="player-list-ping" src="/img/serverping.png"></li>`;
+		    info += `<li id="player-list-details"><a id="player-list-name" href="https://crafty.gg/@${arg[i].name}" target="_blank" rel="noopener noreferrer"><img id="player-list-avatar" src="https://mc-heads.net/avatar/${arg[i].name}" >${arg[i].name}</a><img id="player-list-ping" src="img/serverping.png"></li>`;
 	    }
 	return info;
 	
@@ -45,4 +43,4 @@ function initServerData(serverIp,serverPort){
 	} 
 }
 
-initServerData("mc.lylazane.com","25565");
+initServerData("mc.example.com","25565");
