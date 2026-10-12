@@ -10,4 +10,9 @@ Remember to set "enable-query=true" in your Minecraft "server.properties" file t
 
 Here is an example of what the display will look like when set up properly.
 
-![Example image](example.png)
+![Successful Example](example.png)
+
+
+Here is an example of what a failed display set up will look like.
+
+![Failed Example](example2.png)
