@@ -13,6 +13,6 @@ Here is an example of what the display will look like when set up properly.
 ![Successful Example](example.png)
 
 
-Here is an example of what a failed display set up will look like.
+Here is an example of what an offline or failed display set up will look like.
 
 ![Failed Example](example2.png)
