@@ -9,4 +9,5 @@ Go through playerList.js and index.html and replace "mc.example.com" with either
 Remember to set "enable-query=true" in your Minecraft "server.properties" file to allow the api to gather the information it needs for the display.
 
 Here is an example of what the display will look like when set up properly.
+
 ![Example image](example.png)
