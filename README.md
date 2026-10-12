@@ -6,4 +6,4 @@ Included are the base html, css, and javascript.
 
 Go through playerList.js and index.html and replace "mc.example.com" with either your domain name or ip being used by people to join your server. Also change "25565" to the port you are using.
 
-Remember to set "enable-query=true" in your Minecraft server.properties folder to allow the api to gather the information it needs for the display.
+Remember to set "enable-query=true" in your Minecraft "server.properties" file to allow the api to gather the information it needs for the display.
